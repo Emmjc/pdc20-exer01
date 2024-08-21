@@ -1,0 +1,108 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header styles */
+.App-header {
+  background: linear-gradient(to right, #4d3838, #dcd7d7); /* Gradient background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Form styles */
+.registration-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.registration-form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.registration-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.registration-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.success-manage {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #28a745;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .registration-form {
+    padding: 15px;
+  }
+
+  .registration-form input,
+  .registration-form select,
+  .registration-form textarea {
+    width: 100%;
+  }
+}
