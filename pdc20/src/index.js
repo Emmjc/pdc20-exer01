@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import RegistrationMod01 from './RegistrationMod01';
+import ExpressionJSX from './ExpressionJSX';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RegistrationMod01 />
+    <ExpressionJSX />
   </React.StrictMode>
 );
 
