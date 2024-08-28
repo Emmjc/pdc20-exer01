@@ -6,11 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 import RegistrationMod01 from './RegistrationMod01';
 import ExpressionJSX from './ExpressionJSX';
-
+import GreetHello from './Greetings/GreetHello';
+import HomePage from './Conditionals/Homepage';
+import LogAdmin from './Dashboard/LogAdmin';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ExpressionJSX />
+    <LogAdmin />
   </React.StrictMode>
 );
 
